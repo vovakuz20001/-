@@ -1,0 +1,59 @@
+object Form1Menu: TForm1Menu
+  Left = 673
+  Height = 377
+  Top = 227
+  Width = 494
+  BorderStyle = bsDialog
+  Caption = 'Пятнашки'
+  ClientHeight = 377
+  ClientWidth = 494
+  Color = clMoneyGreen
+  Position = poScreenCenter
+  LCLVersion = '2.2.0.4'
+  object MenuLabel: TLabel
+    Left = 224
+    Height = 26
+    Top = 48
+    Width = 53
+    Caption = 'МЕНЮ'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Franklin Gothic Medium Cond'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Button1Start: TButton
+    Left = 192
+    Height = 40
+    Top = 112
+    Width = 112
+    Caption = 'НАЧАТЬ'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Franklin Gothic Medium Cond'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1StartClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button2Leaders: TButton
+    Left = 192
+    Height = 40
+    Top = 192
+    Width = 112
+    Caption = 'ПОБЕДИТЕЛИ'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Franklin Gothic Medium Cond'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2LeadersClick
+    ParentFont = False
+    TabOrder = 1
+  end
+end

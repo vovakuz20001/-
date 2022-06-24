@@ -1,0 +1,52 @@
+object Form4Leaders: TForm4Leaders
+  Left = 544
+  Height = 275
+  Top = 236
+  Width = 479
+  Caption = 'Таблица лидеров'
+  ClientHeight = 275
+  ClientWidth = 479
+  Color = clMoneyGreen
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 225
+    Width = 479
+    Align = alBottom
+    ClientHeight = 50
+    ClientWidth = 479
+    TabOrder = 0
+    object ButtonExit: TButton
+      Left = 304
+      Height = 25
+      Top = 8
+      Width = 75
+      Caption = 'Выйти'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -13
+      Font.Name = 'Franklin Gothic Medium Cond'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonExitClick
+      ParentFont = False
+      TabOrder = 0
+    end
+    object ButtonBack: TButton
+      Left = 112
+      Height = 25
+      Top = 8
+      Width = 75
+      Caption = 'Назад'
+      Font.CharSet = RUSSIAN_CHARSET
+      Font.Height = -13
+      Font.Name = 'Franklin Gothic Medium Cond'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      OnClick = ButtonBackClick
+      ParentFont = False
+      TabOrder = 1
+    end
+  end
+end

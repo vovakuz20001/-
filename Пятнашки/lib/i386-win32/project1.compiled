@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\FPC\3.2.0\bin\i386-Win32\fpc.exe" Date="1355043128"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -WG -l -vewnhibq -FiF:\пятнашки2\lib\i386-win32 -FuC:\lazarus\lcl\units\i386-win32\win32 -FuC:\lazarus\lcl\units\i386-win32 -FuC:\lazarus\components\lazutils\lib\i386-win32 -FuC:\lazarus\packager\units\i386-win32 -FuF:\пятнашки2\ -FUF:\пятнашки2\lib\i386-win32\ -FEF:\пятнашки2\ -oF:\пятнашки2\project1.exe -dLCL -dLCLwin32 project1.lpr"/>
+</CONFIG>
